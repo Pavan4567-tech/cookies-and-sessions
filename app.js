@@ -12,7 +12,7 @@ app.get('/set-cookie', (req,res)=>{
  res.cookie('fizc','bar',{
     // maxAge: 5000,
    // expires: new Date('26 JULY 2021'),
-   // httpOnly: true,
+    httpOnly: true,
    secure: true,
    
 
