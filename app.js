@@ -23,7 +23,7 @@ app.get('/set-cookie', (req,res)=>{
 })
 
 app.get('/get-cookie',(req,res)=>{
-    console.log(req.cookies)
+    // console.log(req.cookies)
     res.send(req.cookies)
 })
 
